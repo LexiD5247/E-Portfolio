@@ -11,6 +11,11 @@ li{
     list-style: none;
 }
 
+p{
+    line-height: 1.5;
+    font-size: 16px;
+}
+
 section{
     background-color: rgb(245, 245, 245);
 }
@@ -39,6 +44,12 @@ section{
     transform: translate(-50%, -50%);
     width: 100%;
     max-width: 1000px;
+}
+
+.header__para{
+    font-size: 24px;
+    line-height: 2;
+    max-width: 450px;
 }
 
 /*NAVAGATION*/
