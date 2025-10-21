@@ -73,6 +73,7 @@ input:focus, textarea:focus{
 }
 
 .click{
+    cursor: pointer;
     transition: transform 0.2s;
 }
 
@@ -392,6 +393,15 @@ nav{
     100%{
         transform: rotate(360deg);
     }
+}
+
+.modal__exit{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    color: white;
+    font-size: 36px;
+    z-index: 100;
 }
 
 /*PROJECTS*/
