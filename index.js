@@ -1,6 +1,19 @@
 //template_4gsd1xf
 //service_05ic6o7
 //OILUGn6Bsuv4ITP-D
+let isModalOpen = false;
+let contrastToggle = false
+
+function toggleContrast() {
+    contrastToggle = !contrastToggle;
+    if(contrastToggle) {
+        document.body.classList += " dark-theme"
+    }
+    else {
+        document.body.classList.remove("dark-theme")
+    }
+    
+}
 
 function contact(event) {
     event.preventDefault();
@@ -24,7 +37,7 @@ function contact(event) {
     })
 }
 
-let isModalOpen = false;
+
 function toggleModal() {
     if (isModalOpen) {
         isModalOpen = false
