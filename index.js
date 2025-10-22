@@ -1,6 +1,3 @@
-//template_4gsd1xf
-//service_05ic6o7
-//OILUGn6Bsuv4ITP-D
 let isModalOpen = false;
 let contrastToggle = false
 const scaleFactor = 1 / 20;
@@ -24,8 +21,7 @@ function toggleContrast() {
     }
     else {
         document.body.classList.remove("dark-theme")
-    }
-    
+    }   
 }
 
 function contact(event) {
