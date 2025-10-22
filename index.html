@@ -9,10 +9,11 @@
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
     </script>
+    <script src="index.js"></script>
     <script type="text/javascript">
    (function(){
       emailjs.init({
-        publicKey: "OILUGn6Bsuv4ITP-D",
+      publicKey: "OILUGn6Bsuv4ITP-D",
       });
    })();
 </script>
@@ -112,18 +113,18 @@
             <div class="modal__half modal__contact">
             <h3 class="modal__title modal__title--contact"> Lets have a chat!</h3>
             <h3 class="modal__subtitle modal__subtitle--contact"> I'm currently open to new oppertunities.</h3>
-            <form id="contact__form" action="">
+            <form id="contact__form" onsubmit="contact(event)">
                 <div class="form__item">
                     <label calss="form__item--label" for="name">Name</label>
-                    <input class="input" name="user_name" type="text" required></input>
+                    <input class="input" name="user_name" type="text" ></input>
                 </div>
                 <div class="form__item">
                     <label calss="form__item--label" for="name">E-mail</label>
-                    <input class="input" name="user_email" type="email" required></input>
+                    <input class="input" name="user_email" type="email" ></input>
                 </div>
                 <div class="form__item">
                     <label calss="form__item--label" for="name">Message</label>
-                    <input class="input" name="message" type="text" required></input>
+                    <input class="input" name="message" type="text" ></input>
                 </div>
                 <button id="contact__submit" class="form__submit">
                     Send it my way
